@@ -1,6 +1,9 @@
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
+        //Sorted Array
+        //In-place
+        //So Two Pointer
         int i=2,j;
         if (nums.size() <= 2)
             return nums.size();
