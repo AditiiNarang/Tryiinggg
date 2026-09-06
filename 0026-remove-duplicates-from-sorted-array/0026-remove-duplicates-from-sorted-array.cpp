@@ -6,7 +6,7 @@ public:
         //So Two Pointer
         int i=0,j;
         for(int j=1;j<nums.size();j++){
-            if(nums[j]!=nums[j-1]){
+            if(nums[j]!=nums[i]){
                 i++; // count of unique elements.
                 nums[i]=nums[j];
             }
