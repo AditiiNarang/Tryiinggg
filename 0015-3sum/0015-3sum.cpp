@@ -18,8 +18,8 @@ public:
                     ans.push_back({nums[i],nums[left],nums[right]});
                     left++;
                     right--;
-                    while(left<nums.size()-1 && nums[left]==nums[left-1]) left++; // dry run it for [-2,0,1,1,2] samjah aa jayega ki kyu galat hai.
-                    while(right>0 && nums[right]==nums[right+1]) right--; // dry run it for [-2,0,1,1,2] samjah aa jayega ki kyu galat hai.
+                    while(left<nums.size()-1 && nums[left]==nums[left-1]) left++;
+                    while(right>0 && nums[right]==nums[right+1]) right--;
                 }
                 else if(sum<target) left++;
                 else right--;
