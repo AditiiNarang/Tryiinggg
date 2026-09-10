@@ -1,57 +1,32 @@
 class Solution {
 public:
     vector<vector<int>> threeSum(vector<int>& nums) {
-
-        sort(nums.begin(), nums.end());
-
+        //Triplets
+        //So, Two-Pointer
+        //we don't want to return indices 
+        //so we can sort
+        sort(nums.begin(),nums.end());
         vector<vector<int>> ans;
-
-        for (int i = 0; i < nums.size(); i++) {
-
-            // Same first element -> duplicate triplets
-            if (i > 0 && nums[i] == nums[i - 1])
-                continue;
-
-            int left = i + 1;
-            int right = nums.size() - 1;
-
-            int target = -nums[i];
-
-            while (left < right) {
-
-                int sum = nums[left] + nums[right];
-
-                if (sum == target) {
-
-                    ans.push_back({
-                        nums[i],
-                        nums[left],
-                        nums[right]
-                    });
-
-                    // Move both pointers
+        for(int i=0;i<nums.size();i++){
+            if(i>0 && nums[i]==nums[i-1]) continue;
+            int left=i+1;
+            int right=nums.size()-1;
+            int target = -1 * nums[i];
+            while(left<right){
+                int sum = nums[left]+nums[right];
+                if(sum==target){
+                    ans.push_back({nums[i],nums[left],nums[right]});
                     left++;
                     right--;
-
-                    // Skip duplicate left values
-                    while (left < right && nums[left] == nums[left - 1])
-                        left++;
-
-                    // Skip duplicate right values
-                    while (left < right && nums[right] == nums[right + 1])
-                        right--;
+                    while(left<nums.size()-1 && nums[left]==nums[left-1]) left++; // dry run it for [-2,0,1,1,2] samjah aa jayega ki kyu galat hai.
+                    while(right>0 && nums[right]==nums[right+1]) right--; // dry run it for [-2,0,1,1,2] samjah aa jayega ki kyu galat hai.
                 }
-
-                else if (sum < target) {
-                    left++;
-                }
-
-                else {
-                    right--;
-                }
+                else if(sum<target) left++;
+                else right--;
             }
         }
-
         return ans;
     }
 };
+//T.C. = O(nlogn) + O(n square) = O(n square)
+//S.C. = O(n square)
