@@ -1,0 +1,8 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/2-sum-count-distinct-pairs-with-given-sum/1">Count Distinct Pairs with Sum</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO" style="--text-color: var(--problem-text-color);"><p class="PDq2pG_selectionAnchorContainer" data-start="444" data-end="559"><span style="font-size: 14pt;">Given an array <strong>arr[]</strong> and an integer <strong>target</strong>, return the number of distinct pairs whose sum is equal to target. </span><span style="font-size: 14pt;">Two pairs are considered the same if they contain the same two values, regardless of their order. Multiple occurrences of the same values should be counted only once.</span></p>
+<p class="PDq2pG_selectionAnchorContainer" data-start="444" data-end="559"><strong style="font-size: 18px;">Examples:</strong></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong></span><span style="font-size: 18px;">arr[] = [5, 6, 5, 7, 7, 8], target = 13 </span><span style="font-size: 18px;">
+<strong>Output: </strong>2<strong>
+Explanation: </strong></span><span style="font-size: 18px;">Distinct pairs with sum equal to 13 are (5, 8) and (6, 7).</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>arr[] = [1, 1, 1],</span><span style="font-size: 18px;"> target = 2</span><span style="font-size: 18px;">
+<strong>Output: </strong>1</span><span style="font-size: 14pt;"><strong>
+Explanation: </strong></span><span style="font-size: 18.6667px;">Distinct pairs with sum equal to 2 is (1, 1).</span></pre></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>Hash</code>&nbsp;
