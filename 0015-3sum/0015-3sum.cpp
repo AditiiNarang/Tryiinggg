@@ -18,8 +18,8 @@ public:
                     ans.push_back({nums[i],nums[left],nums[right]});
                     left++;
                     right--;
-                    while(left<nums.size()-1 && nums[left]==nums[left-1]) left++;
-                    while(right>0 && nums[right]==nums[right+1]) right--;
+                    while(left<nums.size()-1 && nums[left]==nums[left-1]) left++; //notice left-1 
+                    while(right>0 && nums[right]==nums[right+1]) right--; //notice right+1
                 }
                 else if(sum<target) left++;
                 else right--;
