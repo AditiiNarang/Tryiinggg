@@ -1,28 +1,20 @@
 class Solution {
 public:
     void sortColors(vector<int>& nums) {
-        //Rearrange kar rahe hai
-        //In-place
-        //3partitions 
-        //So, DNF (Dutch National Flag)
-        int low=0,mid=0,high=nums.size()-1;
-        while(mid<=high){
+        int left=0;
+        int mid=0;
+        int right=nums.size()-1;
+        while(mid<=right){
             if(nums[mid]==0){
-                swap(nums[low],nums[mid]);
-                low++;
+                swap(nums[mid],nums[left]);
+                left++;
                 mid++;
             }
-            else if(nums[mid]==1){
-                mid++;
-            }
+            else if(nums[mid]==1) mid++;
             else{
-                swap(nums[mid],nums[high]);
-                high--;
+                swap(nums[mid],nums[right]);
+                right--;
             }
         }
     }
 };
-// Follow up: Could you come up with a one-pass algorithm using only constant extra space? 
-// DNF satisfies follow up. 
-// T.C. = O(n)
-// S.C. = O(1)
