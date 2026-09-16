@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/AditiiNarang/MISSION-DSA/tree/master/0075-sort-colors) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/AditiiNarang/MISSION-DSA/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/AditiiNarang/MISSION-DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0643-maximum-average-subarray-i](https://github.com/AditiiNarang/MISSION-DSA/tree/master/0643-maximum-average-subarray-i) |
 | [0977-squares-of-a-sorted-array](https://github.com/AditiiNarang/MISSION-DSA/tree/master/0977-squares-of-a-sorted-array) |
 ## Hash Table
 |  |
@@ -49,4 +50,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/AditiiNarang/MISSION-DSA/tree/master/0075-sort-colors) |
+## Sliding Window
+|  |
+| ------- |
+| [0643-maximum-average-subarray-i](https://github.com/AditiiNarang/MISSION-DSA/tree/master/0643-maximum-average-subarray-i) |
 <!---LeetCode Topics End-->
