@@ -5,7 +5,7 @@ public:
         //fixed length k
         //so Fixed Size Sliding Window
         double sum=0;
-        for(int i=0;i<k;i++){ //T.C. = O(n)
+        for(int i=0;i<k;i++){ //T.C. = O(k)
             sum+=nums[i];
         }
         double maxi=sum;     //T.C. = O(n-k)
