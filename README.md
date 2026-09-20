@@ -17,6 +17,7 @@ DSA Patterns. This contains the links of leetcode and gfg problems. gfg problems
 | [0209-minimum-size-subarray-sum](https://github.com/AditiiNarang/MISSION-DSA/tree/master/0209-minimum-size-subarray-sum) |
 | [0643-maximum-average-subarray-i](https://github.com/AditiiNarang/MISSION-DSA/tree/master/0643-maximum-average-subarray-i) |
 | [0977-squares-of-a-sorted-array](https://github.com/AditiiNarang/MISSION-DSA/tree/master/0977-squares-of-a-sorted-array) |
+| [1534-count-good-triplets](https://github.com/AditiiNarang/MISSION-DSA/tree/master/1534-count-good-triplets) |
 ## Hash Table
 |  |
 | ------- |
@@ -61,4 +62,8 @@ DSA Patterns. This contains the links of leetcode and gfg problems. gfg problems
 |  |
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/AditiiNarang/MISSION-DSA/tree/master/0209-minimum-size-subarray-sum) |
+## Enumeration
+|  |
+| ------- |
+| [1534-count-good-triplets](https://github.com/AditiiNarang/MISSION-DSA/tree/master/1534-count-good-triplets) |
 <!---LeetCode Topics End-->
