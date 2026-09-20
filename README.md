@@ -1,5 +1,5 @@
 # Mission DSA
-DSA Patterns.
+DSA Patterns. This contains the links of leetcode and gfg problems. gfg problems are organised in the folders with difficulty level.(Difficulty: Easy, Difficulty: Medium, Difficulty: Hard).
 
 <!---LeetCode Topics Start-->
 # LeetCode Topics
