@@ -8,6 +8,7 @@ public:
         // We don't need to include these customers in the sliding window,
         // because they are satisfied even without using the secret technique.
         // So, set customers[i] = 0 for these positions.
+
         // After this, customers array contains only those customers
         // who are NOT satisfied normally and can be satisfied
         // using the secret technique.
