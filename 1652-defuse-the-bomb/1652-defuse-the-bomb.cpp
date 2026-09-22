@@ -19,6 +19,8 @@ public:
         int windowsum=0;
         for(int i=left;i<=right;i++) //T.C. = O(k)
             windowsum+=code[i];
+        //We have to calculate for every value in array.
+        //So loop will run from i=0 to i<n;
         for(int i=0;i<n;i++){        //T.C. = O(n)
             ans[i]=windowsum;
             windowsum-=code[left%n];
