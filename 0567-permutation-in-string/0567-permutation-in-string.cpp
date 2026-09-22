@@ -1,10 +1,9 @@
 class Solution {
 public:
     bool checkInclusion(string s1, string s2) {
-        //Substring
-        //of fixed length k
-        //where k is length of s1.
-        //So, Fixed Size Sliding Window.
+        // We need to find a substring in s2
+        // of fixed length k, where k = s1.length().
+        // So,Fixed-Size Sliding Window.
         int k=s1.length();
         if(k>s2.length()) return false;
         vector<int>s1_freq(26,0);
