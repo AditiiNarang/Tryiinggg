@@ -19,6 +19,7 @@ DSA Patterns. This contains the links of leetcode and gfg problems. gfg problems
 | [0977-squares-of-a-sorted-array](https://github.com/AditiiNarang/MISSION-DSA/tree/master/0977-squares-of-a-sorted-array) |
 | [1052-grumpy-bookstore-owner](https://github.com/AditiiNarang/MISSION-DSA/tree/master/1052-grumpy-bookstore-owner) |
 | [1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/AditiiNarang/MISSION-DSA/tree/master/1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
+| [1423-maximum-points-you-can-obtain-from-cards](https://github.com/AditiiNarang/MISSION-DSA/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 | [1534-count-good-triplets](https://github.com/AditiiNarang/MISSION-DSA/tree/master/1534-count-good-triplets) |
 | [1652-defuse-the-bomb](https://github.com/AditiiNarang/MISSION-DSA/tree/master/1652-defuse-the-bomb) |
 ## Hash Table
@@ -68,12 +69,14 @@ DSA Patterns. This contains the links of leetcode and gfg problems. gfg problems
 | [0643-maximum-average-subarray-i](https://github.com/AditiiNarang/MISSION-DSA/tree/master/0643-maximum-average-subarray-i) |
 | [1052-grumpy-bookstore-owner](https://github.com/AditiiNarang/MISSION-DSA/tree/master/1052-grumpy-bookstore-owner) |
 | [1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/AditiiNarang/MISSION-DSA/tree/master/1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
+| [1423-maximum-points-you-can-obtain-from-cards](https://github.com/AditiiNarang/MISSION-DSA/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/AditiiNarang/MISSION-DSA/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1652-defuse-the-bomb](https://github.com/AditiiNarang/MISSION-DSA/tree/master/1652-defuse-the-bomb) |
 ## Prefix Sum
 |  |
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/AditiiNarang/MISSION-DSA/tree/master/0209-minimum-size-subarray-sum) |
+| [1423-maximum-points-you-can-obtain-from-cards](https://github.com/AditiiNarang/MISSION-DSA/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 ## Enumeration
 |  |
 | ------- |
