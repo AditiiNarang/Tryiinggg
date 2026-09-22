@@ -1,12 +1,16 @@
 class Solution {
 public:
     int maxSatisfied(vector<int>& customers, vector<int>& grumpy, int minutes) {
-        // grumpy[i] == 0 means owner is NOT grumpy,
+        // grumpy[i] == 0 means the owner is NOT grumpy,
         // so customers entering at this minute are already satisfied.
-        // sum = customers who are already satisfied normally.
-        // we need customers who are not satisfied normally
-        // So we can do customer[i]=0 when customers are satisfied
-        // So in customer array only those values will be there when customer is not satisfied.
+        // sum = total customers who are already satisfied normally.
+
+        // We don't need to include these customers in the sliding window,
+        // because they are satisfied even without using the secret technique.
+        // So, set customers[i] = 0 for these positions.
+        // After this, customers array contains only those customers
+        // who are NOT satisfied normally and can be satisfied
+        // using the secret technique.
         int sum=0;
         for(int i=0;i<grumpy.size();i++){
             if(grumpy[i]==0){
@@ -33,4 +37,5 @@ public:
         return sum+maxi;
     }
 };
-//T.C. = O(n)
+//T.C. = O(n) + O(minutes) + O(n-minutes) = O(2n) = O(n)
+//S.C. = O(1)
