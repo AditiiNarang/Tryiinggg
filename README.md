@@ -16,6 +16,7 @@ DSA Patterns. This contains the links of leetcode and gfg problems. gfg problems
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/AditiiNarang/MISSION-DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/AditiiNarang/MISSION-DSA/tree/master/0209-minimum-size-subarray-sum) |
 | [0643-maximum-average-subarray-i](https://github.com/AditiiNarang/MISSION-DSA/tree/master/0643-maximum-average-subarray-i) |
+| [0713-subarray-product-less-than-k](https://github.com/AditiiNarang/MISSION-DSA/tree/master/0713-subarray-product-less-than-k) |
 | [0977-squares-of-a-sorted-array](https://github.com/AditiiNarang/MISSION-DSA/tree/master/0977-squares-of-a-sorted-array) |
 | [1052-grumpy-bookstore-owner](https://github.com/AditiiNarang/MISSION-DSA/tree/master/1052-grumpy-bookstore-owner) |
 | [1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/AditiiNarang/MISSION-DSA/tree/master/1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
@@ -46,6 +47,7 @@ DSA Patterns. This contains the links of leetcode and gfg problems. gfg problems
 | ------- |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/AditiiNarang/MISSION-DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/AditiiNarang/MISSION-DSA/tree/master/0209-minimum-size-subarray-sum) |
+| [0713-subarray-product-less-than-k](https://github.com/AditiiNarang/MISSION-DSA/tree/master/0713-subarray-product-less-than-k) |
 ## Sorting
 |  |
 | ------- |
@@ -68,6 +70,7 @@ DSA Patterns. This contains the links of leetcode and gfg problems. gfg problems
 | [0438-find-all-anagrams-in-a-string](https://github.com/AditiiNarang/MISSION-DSA/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0567-permutation-in-string](https://github.com/AditiiNarang/MISSION-DSA/tree/master/0567-permutation-in-string) |
 | [0643-maximum-average-subarray-i](https://github.com/AditiiNarang/MISSION-DSA/tree/master/0643-maximum-average-subarray-i) |
+| [0713-subarray-product-less-than-k](https://github.com/AditiiNarang/MISSION-DSA/tree/master/0713-subarray-product-less-than-k) |
 | [1052-grumpy-bookstore-owner](https://github.com/AditiiNarang/MISSION-DSA/tree/master/1052-grumpy-bookstore-owner) |
 | [1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/AditiiNarang/MISSION-DSA/tree/master/1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/AditiiNarang/MISSION-DSA/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
@@ -77,6 +80,7 @@ DSA Patterns. This contains the links of leetcode and gfg problems. gfg problems
 |  |
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/AditiiNarang/MISSION-DSA/tree/master/0209-minimum-size-subarray-sum) |
+| [0713-subarray-product-less-than-k](https://github.com/AditiiNarang/MISSION-DSA/tree/master/0713-subarray-product-less-than-k) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/AditiiNarang/MISSION-DSA/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 ## Enumeration
 |  |
