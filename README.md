@@ -1,5 +1,7 @@
 # Mission DSA
-DSA Patterns. This contains the links of leetcode and gfg problems. gfg problems are organised in the folders with difficulty level.(Difficulty: Easy, Difficulty: Medium, Difficulty: Hard). and Leetcode problems are written under LeetCode Topics.
+DSA Patterns.
+Leetcode, GFG, HackerRank: (LeetHub AI - Sync LeetCode, GFG & HackerRank to GitHub extension)
+Leetcode problems are further classified under LeetCode Topics. (LeetHub v2 extension)
 
 <!---LeetCode Topics Start-->
 # LeetCode Topics
