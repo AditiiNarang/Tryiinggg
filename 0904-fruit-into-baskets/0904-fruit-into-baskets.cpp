@@ -25,7 +25,7 @@ public:
     }
 };
 //T.C. = O(n)
-//S.C. = O(1) kyuki the map is storing at most k+1 (3) elements.
+//S.C. = O(1) kyuki the map is storing at most k+1 i.e. 3 elements.
 
 // Synced seamlessly with LeetHub Pro
 // Pro features: https://bit.ly/leethubpro | Free version: https://bit.ly/leethubv4
