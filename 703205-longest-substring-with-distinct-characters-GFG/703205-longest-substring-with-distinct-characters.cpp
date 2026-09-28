@@ -5,7 +5,7 @@ class Solution {
         //Substring
         //koi bhi character 2 baar nahi aana chahiye
         //yaani har character ki frequency <= 1 honi chahiye
-        //so, Variable Size Sliding Window
+        //So, Variable Size Sliding Window
         int left=0,right=0;
         unordered_map<char,int>mp;
         if(s.length()==0) return 0;
