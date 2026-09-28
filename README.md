@@ -1,7 +1,7 @@
 # Mission DSA
 - **DSA Patterns**
 - **LeetCode, GFG, HackerRank** : LeetHub AI extension for syncing solutions to GitHub.
-- **LeetCode Topics** : LeetHub v2 extension for classifying the Leetcode problems by topic.
+- **LeetCode Topics** : LeetHub v2 extension for classifying Leetcode problems by topic.
 
 <!---LeetCode Topics Start-->
 # LeetCode Topics
