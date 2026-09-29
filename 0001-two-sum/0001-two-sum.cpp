@@ -17,3 +17,7 @@ public:
 //T.C. = O(n)
 //S.C. = O(n)
 // We could have done two pointer but they have asked for indices so we approached HashMap.
+
+// Synced seamlessly with LeetHub Pro
+// Pro features: https://bit.ly/leethubpro | Free version: https://bit.ly/leethubv4
+// Get it here: https://chromewebstore.google.com/detail/bcilpkkbokcopmabingnndookdogmbna
