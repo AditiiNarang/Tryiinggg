@@ -1,22 +1,22 @@
 class Solution {
 public:
     int numSubarrayProductLessThanK(vector<int>& nums, int k) {
-        //Variable Size Sliding Window
-        int left=0,right=0;
-        int count=0;
+        if(k<=1) return 0;
+        int left=0, right=0;
         int prod=1;
-        if(k==1) return 0;
-        while(right<nums.size()){
+        int count=0;
+        for(right=0;right<nums.size();right++){
             prod*=nums[right];
             while(prod>=k){
-                prod /=nums[left];
+                prod/=nums[left];
                 left++;
             }
-            count+=right-left+1; //No. of subarrays ending at right.
-            right++;
+            count+=right-left+1;
         }
         return count;
     }
 };
-//T.C. = O(n)
-//S.C. = O(1)
+
+// Synced seamlessly with LeetHub Pro
+// Pro features: https://bit.ly/leethubpro | Free version: https://bit.ly/leethubv4
+// Get it here: https://chromewebstore.google.com/detail/bcilpkkbokcopmabingnndookdogmbna
