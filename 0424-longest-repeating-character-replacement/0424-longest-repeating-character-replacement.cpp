@@ -1,17 +1,19 @@
 class Solution {
 public:
     int characterReplacement(string s, int k) {
+        //LONGEST substring in which we can replace
+        //at most k characters to make all characters the same.   
+        //Window size is not fixed
+        //So Variable Size Sliding Window
         unordered_map<char,int> mp;
         int left=0,right=0;
-        int len=0;
         int maxfreq=0;
-        int diff=0;
         int maxi=0;
         for(right=0;right<s.length();right++){
             mp[s[right]]++;
-            maxfreq=max(maxfreq,mp[s[right]]);
-            len=right-left+1;
-            diff=len-maxfreq;
+            int maxfreq=max(maxfreq,mp[s[right]]);
+            int len=right-left+1;
+            int diff=len-maxfreq;
             while(diff>k){
                 mp[s[left]]--;
                 left++;
@@ -23,6 +25,8 @@ public:
         return maxi;
     }
 };
+//T.C. = O(n)
+//S.C. = O(1)
 
 // Synced seamlessly with LeetHub Pro
 // Pro features: https://bit.ly/leethubpro | Free version: https://bit.ly/leethubv4
